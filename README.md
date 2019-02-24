@@ -1,2 +1,2 @@
 # PythonExpteriments
-Various experiments to learn Python 
+Various experiments/ tutorial tryouts to learn Python 
