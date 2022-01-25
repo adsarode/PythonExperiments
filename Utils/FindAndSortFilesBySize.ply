@@ -1,0 +1,5 @@
+import numpy as np
+import os,glob
+
+for file in sorted(glob.glob("C:/SOURCE_BASE/**/*.cpp"),key=lambda file:os.stat(file).st_size,reverse=True):
+    print(f'{file} is {np.around(os.stat(file).st_size/(1024),decimals=1)} KB')
