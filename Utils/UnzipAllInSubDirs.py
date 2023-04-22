@@ -17,3 +17,4 @@ while True:
         unpack_archive(str(path), str(extract_dir), 'zip')
         #print(extract_dir)
         #print(path.parent.absolute())
+        print("Completed, ", extract_dir)
